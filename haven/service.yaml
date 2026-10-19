@@ -9,4 +9,4 @@ sourceConfig:
   restartPolicy: UnlessStopped
   content: |
     FROM alpine:3.20
-    CMD ["sh", "-c", "echo \"starting\" while true; do date -u +\"%Y-%m-%dT%H:%M:%SZ\"; sleep 1; done"]
+    CMD ["sh", "-c", "echo \"starting\"; while true; do date -u +\"%Y-%m-%dT%H:%M:%SZ\"; sleep 1; done"]
